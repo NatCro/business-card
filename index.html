@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,32 +8,42 @@
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="assets\style.css">
 </head>
+
 <body id="behind">
     <div id="main-card">
-    <div>
-        <div id="profile-picture"></div> <!--adding the profile photo in this div-->
+        <div>
+            <div id="profile-picture"><img id="avatar" src="images\profile-picture.jpg" alt="image of the users face" height="150px" width="auto">
+            </div> <!--adding the profile photo in this div-->
+            <div class="text-styling">
+                <div id="title">
+                    <h1>Nathan Crockwell</h1>
+                </div> <!--adding the users name header here-->
+                <div class="sub-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor metus a justo iaculis
+                        sagittis eu vel diam. Nam pretium laoreet ante at varius.</p>
+                </div> <!--short few sentences about the user-->
+            </div>
+        </div>
         <div class="text-styling">
-            <div id="title"><h1>Nathan Crockwell</h1></div> <!--adding the users name header here-->
-            <div class="sub-text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc porttitor metus<br>a justo iaculis sagittis eu vel diam. Nam pretium laoreet ante at varius. Quisque vel massa eu ex euismod efficitur.</p></div> <!--short few sentences about the user-->
+            <ul class="sub-text">
+                <div class="first-list">Email</div>
+                <!--list of links to email address and porfolio, want the email to launch in users emails-->
+                <div class="first-list">Portfolio</div>
+            </ul>
+        </div>
+
+        <div class="text-styling">
+            <ul class="sub-text">
+                <div class="second-list">Facebook</div>
+                <div class="second-list">Twitter</div>
+                <!--this will be the links to twitter, linkedin, github and one other (still deciding)-->
+                <div>Github</div>
+                <div>Lindekin</div>
+            </ul>
         </div>
     </div>
-<div>
-    <ul class="sub-text" class="first-list">
-        <li>Email</li> <!--list of links to email address and porfolio, want the email to launch in users emails-->
-        <li>Portfolio link</li>
-    </ul>
-</div>
-
-<div>
-    <ul class="sub-text" class="second-list">
-        <li>Facebook</li> 
-        <li>Twitter</li> <!--this will be the links to twitter, linkedin, github and one other (still deciding)-->
-        <li>Github</li>
-        <li>Linkedin</li>
-    </ul>
-</div>
-</div>
 
     <script src="assets\logic.js"></script>
 </body>
+
 </html>
