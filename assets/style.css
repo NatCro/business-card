@@ -1,0 +1,14 @@
+#behind{
+    background-color: rgb(255, 255, 255);
+}
+
+#main-card{
+    background-color: rgba(157, 158, 158, 0.15);
+    padding: 10%;
+    margin: 20%;
+    margin-top: 5%;
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px rgb(180, 180, 180);
+    border: 20px;
+    text-align: center;
+}
